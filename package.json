@@ -10,15 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@tailwindcss/vite": "^4.3.2",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
-    "tailwindcss": "^4.3.2"
-=======
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
->>>>>>> 8b82440a5f888235c344090b93c69798df9034b2
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

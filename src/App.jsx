@@ -1,6 +1,7 @@
 import './App.css'
 import Card from './components/Card';
 import UseState from './components/hooks/UseState';
+import LiftStateUp from './components/LiftStateUp';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -35,8 +36,9 @@ function App(){
     <p className="text-3xl font-bold underline text-green-500">footer:-{counter}</p>
     </section>
     <Card username="sandeep" btn="read more" someobj = {myObj} />
-    <Card username="ashok" btn="toVist"/> */}
-    <UseState/>
+    <Card username="ashok" btn="toVist"/>
+    <UseState/> */}
+    <LiftStateUp />
     </>
   )
 }

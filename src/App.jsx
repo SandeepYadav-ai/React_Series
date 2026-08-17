@@ -2,6 +2,7 @@ import './App.css'
 import Card from './components/Card';
 import UseState from './components/hooks/UseState';
 import LiftStateUp from './components/LiftStateUp';
+import DerivedState from './components/DerivedState';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -37,8 +38,9 @@ function App(){
     </section>
     <Card username="sandeep" btn="read more" someobj = {myObj} />
     <Card username="ashok" btn="toVist"/>
-    <UseState/> */}
-    <LiftStateUp />
+    <UseState/>
+    <LiftStateUp /> */}
+    <DerivedState />
     </>
   )
 }

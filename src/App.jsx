@@ -3,6 +3,7 @@ import Card from './components/Card';
 import UseState from './components/hooks/UseState';
 import LiftStateUp from './components/LiftStateUp';
 import DerivedState from './components/DerivedState';
+import ShortCircuit from './components/ShortCircuit';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -39,8 +40,9 @@ function App(){
     <Card username="sandeep" btn="read more" someobj = {myObj} />
     <Card username="ashok" btn="toVist"/>
     <UseState/>
-    <LiftStateUp /> */}
-    <DerivedState />
+    <LiftStateUp />
+    <DerivedState /> */}
+    <ShortCircuit />
     </>
   )
 }

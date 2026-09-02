@@ -4,6 +4,7 @@ import UseState from './components/hooks/UseState';
 import LiftStateUp from './components/LiftStateUp';
 import DerivedState from './components/DerivedState';
 import ShortCircuit from './components/ShortCircuit';
+import RegistrationForm from './components/RegistrationReact';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -41,8 +42,9 @@ function App(){
     <Card username="ashok" btn="toVist"/>
     <UseState/>
     <LiftStateUp />
-    <DerivedState /> */}
-    <ShortCircuit />
+    <DerivedState />
+    <ShortCircuit /> */}
+    <RegistrationForm />
     </>
   )
 }

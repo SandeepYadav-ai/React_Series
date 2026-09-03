@@ -6,6 +6,7 @@ import DerivedState from './components/DerivedState';
 import ShortCircuit from './components/ShortCircuit';
 import RegistrationForm from './components/RegistrationReact';
 import LoginForm from './components/LoginForm';
+import ContactForm from './components/ContactForm';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -45,8 +46,9 @@ function App(){
     <LiftStateUp />
     <DerivedState />
     <ShortCircuit />
-    <RegistrationForm /> */}
-    <LoginForm />
+    <RegistrationForm />
+    <LoginForm /> */}
+    <ContactForm />
     </>
   )
 }

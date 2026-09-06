@@ -7,6 +7,7 @@ import ShortCircuit from './components/ShortCircuit';
 import RegistrationForm from './components/RegistrationReact';
 import LoginForm from './components/LoginForm';
 import ContactForm from './components/ContactForm';
+import UseEffect from './components/hooks/UseEffect';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -47,8 +48,9 @@ function App(){
     <DerivedState />
     <ShortCircuit />
     <RegistrationForm />
-    <LoginForm /> */}
-    <ContactForm />
+    <LoginForm />
+    <ContactForm /> */}
+    <UseEffect />
     </>
   )
 }

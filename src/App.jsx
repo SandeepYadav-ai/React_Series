@@ -9,6 +9,7 @@ import LoginForm from './components/hooks/useState/LoginForm';
 import ContactForm from './components/hooks/useState/ContactForm';
 import UseEffect from './components/hooks/useEffect/UseEffect';
 import EffectChanllenge from './components/hooks/useEffect/effectChallenge';
+import CleanUpEffect from './components/hooks/useEffect/cleanupEffect';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -51,8 +52,9 @@ function App(){
     <RegistrationForm />
     <LoginForm />
     <ContactForm />
-    <UseEffect /> */}
-    <EffectChanllenge />
+    <UseEffect />
+    <EffectChanllenge /> */}
+    <CleanUpEffect />
     </>
   )
 }

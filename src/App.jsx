@@ -1,13 +1,13 @@
 import './App.css'
-import Card from './components/Card';
-import UseState from './components/hooks/UseState';
-import LiftStateUp from './components/LiftStateUp';
-import DerivedState from './components/DerivedState';
-import ShortCircuit from './components/ShortCircuit';
-import RegistrationForm from './components/RegistrationReact';
-import LoginForm from './components/LoginForm';
-import ContactForm from './components/ContactForm';
-import UseEffect from './components/hooks/UseEffect';
+import Card from './components/hooks/useState/Card';
+import UseState from './components/hooks/useState/UseState';
+import LiftStateUp from './components/hooks/useState/LiftStateUp';
+import DerivedState from './components/hooks/useState/DerivedState';
+import ShortCircuit from './components/hooks/useState/ShortCircuit';
+import RegistrationForm from './components/hooks/useState/RegistrationReact';
+import LoginForm from './components/hooks/useState/LoginForm';
+import ContactForm from './components/hooks/useState/ContactForm';
+import UseEffect from './components/hooks/useEffect/UseEffect';
 
 function App(){
   // let [counter, setCounter] = useState(0)

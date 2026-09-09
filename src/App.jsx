@@ -10,6 +10,7 @@ import ContactForm from './components/hooks/useState/ContactForm';
 import UseEffect from './components/hooks/useEffect/UseEffect';
 import EffectChanllenge from './components/hooks/useEffect/effectChallenge';
 import CleanUpEffect from './components/hooks/useEffect/cleanupEffect';
+import { FetchApi } from './components/hooks/useEffect/PokemonApi';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -53,8 +54,9 @@ function App(){
     <LoginForm />
     <ContactForm />
     <UseEffect />
-    <EffectChanllenge /> */}
-    <CleanUpEffect />
+    <EffectChanllenge />
+    <CleanUpEffect /> */}
+    <FetchApi />
     </>
   )
 }

@@ -6,24 +6,38 @@ export const FetchApi = ()=> {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    const Api = 'https://pokeapi.co/api/v2/pokemon/pikachu';
-    const pokemonApi = ()=> {
-        fetch(Api)
-        .then((res)=> {
-            res = res.json();
-            return res;
-        })
-        .then((data)=> {
-            console.log(data);
-            setPokemon(data);
-            setLoading(false);
-        })
-        .catch((error)=> {
+    const API = 'https://pokeapi.co/api/v2/pokemon/eevee';
+    // const pokemonApi = ()=> {
+    //     fetch(API)
+    //     .then((res)=> {
+    //         res = res.json();
+    //         return res;
+    //     })
+    //     .then((data)=> {
+    //         console.log(data);
+    //         setPokemon(data);
+    //         setLoading(false);
+    //     })
+    //     .catch((error)=> {
+    //         console.log(error);
+    //         setError(error);
+    //         setLoading(false);
+    //     });
+    // };
+
+    const pokemonApi = async()=> {
+        try {
+           const res = await fetch(API);
+           const data = await res.json();
+           console.log(data);
+           setPokemon(data);
+           setLoading(false);
+        } catch (error) {
             console.log(error);
             setError(error);
             setLoading(false);
-        });
-    };
+        }
+    }
 
     useEffect(()=> {
         pokemonApi();

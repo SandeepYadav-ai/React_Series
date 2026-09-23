@@ -1,7 +1,12 @@
-import { useState } from "react";
+import { useRef } from "react";
 
 export const UseRef = function() {
-    const username = document.getElementById('username');
+    //const username = document.getElementById('usename');
+    //const password = document.getElementById('password');
+    const username = useRef(null);
+    const password = useRef(null);
+    console.log(username);
+    
     
     
     
@@ -9,7 +14,7 @@ export const UseRef = function() {
     //const [password, setPassword] = useState("");
     const eventHandle = (e)=> {
         e.preventDefault();
-        console.log(username.target.value);
+        console.log(username.current.value, password.current.value);
     };
     //console.log(eventHandle);
     
@@ -21,7 +26,7 @@ export const UseRef = function() {
                     type="text"
                     id="username"
                     //placeholder="enter usename"
-                    //value={username}
+                    ref={username}
                     //onChange={(e)=> setUsername(e.target.value)} 
                 /><br/>
                 <label htmlFor="">password</label>
@@ -29,10 +34,10 @@ export const UseRef = function() {
                     type="text"
                     id="password"
                     //placeholder="enter password"
-                    //value={password}
+                    ref={password}
                     //onChange={(e)=> setPassword(e.target.value)} 
-                />
-                <button>submit</button>
+                /><br/>
+                <button className="counter">Submit</button>
             </form>
             
         </div>

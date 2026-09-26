@@ -13,6 +13,7 @@ import CleanUpEffect from './components/hooks/useEffect/cleanupEffect';
 import { FetchApi } from './components/hooks/useEffect/PokemonApi';
 import { UseRef } from './components/hooks/useRefs/UseRef';
 import { UseId } from './components/hooks/useId/UseId';
+import { PropDrilling } from './components/hooks/PropDrilling';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -59,8 +60,9 @@ function App(){
     <EffectChanllenge />
     <CleanUpEffect />
     <FetchApi />
-    <UseRef /> */}
-    <UseId />
+    <UseRef />
+    <UseId /> */}
+    <PropDrilling />
     </>
   );
 };

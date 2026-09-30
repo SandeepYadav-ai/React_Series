@@ -18,6 +18,7 @@ import { Home } from './components/hooks/ContextApi/home';
 import { BioProvider } from './components/hooks/ContextApi';
 import { About } from './components/hooks/ContextApi/About';
 import { Service } from './components/hooks/ContextApi/Service';
+import { DarkLight, ThemeProvider } from './components/hooks/ContextApi/DarkLight';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -66,12 +67,15 @@ function App(){
     <FetchApi />
     <UseRef />
     <UseId />
-    <PropDrilling /> */}
+    <PropDrilling />
     <BioProvider>
       <Home />
       <About />
       <Service />
-    </BioProvider>
+    </BioProvider> */}
+    <ThemeProvider>
+      <DarkLight />
+    </ThemeProvider>
     </>
   );
 };

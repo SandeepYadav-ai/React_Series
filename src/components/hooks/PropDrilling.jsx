@@ -33,5 +33,5 @@ const GrandGrandChild = (props)=> {
         <>
         <h1>hello I love {props.data}</h1>
         </>
-    )
-}
+    );
+};

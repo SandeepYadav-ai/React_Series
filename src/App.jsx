@@ -19,6 +19,7 @@ import { BioProvider } from './components/hooks/ContextApi';
 import { About } from './components/hooks/ContextApi/About';
 import { Service } from './components/hooks/ContextApi/Service';
 import { DarkLight, ThemeProvider } from './components/hooks/ContextApi/DarkLight';
+import { UseReducer } from './components/hooks/useReducer/UseReducer';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -72,10 +73,11 @@ function App(){
       <Home />
       <About />
       <Service />
-    </BioProvider> */}
+    </BioProvider>
     <ThemeProvider>
       <DarkLight />
-    </ThemeProvider>
+    </ThemeProvider> */}
+    <UseReducer />
     </>
   );
 };

@@ -81,9 +81,9 @@ function App(){
       <DarkLight />
     </ThemeProvider>
     <UseReducer />
-    <Counter />
-    <ReactMemo /> */}
-    <MemoPerentComponent />
+    <Counter /> */}
+    <ReactMemo />
+    {/* <MemoPerentComponent /> */}
     </>
   );
 };

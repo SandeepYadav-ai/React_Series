@@ -22,6 +22,7 @@ import { DarkLight, ThemeProvider } from './components/hooks/ContextApi/DarkLigh
 import { UseReducer } from './components/hooks/useReducer/UseReducer';
 import { Counter } from './components/hooks/useReducer';
 import { ReactMemo } from './components/hooks/Memo/ReactMemo';
+import { MemoPerentComponent } from './components/hooks/Memo/UseMemo';
 
 function App(){
   // let [counter, setCounter] = useState(0)
@@ -80,8 +81,9 @@ function App(){
       <DarkLight />
     </ThemeProvider>
     <UseReducer />
-    <Counter /> */}
-    <ReactMemo />
+    <Counter />
+    <ReactMemo /> */}
+    <MemoPerentComponent />
     </>
   );
 };
